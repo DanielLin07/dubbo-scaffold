@@ -1,7 +1,7 @@
 # Spring boot application
 spring:
   application:
-    name: dubbo-scaffold
+    name: dubbo-scaffold-web
 
 # Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
 dubbo:
@@ -15,7 +15,7 @@ dubbo:
   # Dubbo Protocol
   protocol:
     name: dubbo
-    port: 12345
+    port: 8001
 
   ## Dubbo Registry
   registry:
