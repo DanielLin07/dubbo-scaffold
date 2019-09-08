@@ -1,4 +1,4 @@
-package com.daniellin07.dubboscaffold.service;
+package com.daniellin07.dubboscaffold.auth.service;
 
 /**
  * @author DanielLin07

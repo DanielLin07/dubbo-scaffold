@@ -1,7 +1,7 @@
 # Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
 dubbo:
   scan:
-    base-packages: com.daniellin07.dubboscaffold.auth.service
+    base-packages: com.daniellin07.dubboscaffold.web.service
 
   # Dubbo Application
   ## The default value of dubbo.application.name is ${spring.application.name}
@@ -10,7 +10,7 @@ dubbo:
   # Dubbo Protocol
   protocol:
     name: dubbo
-    port: 20801
+    port: 20802
 
   ## Dubbo Registry
   registry:

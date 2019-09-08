@@ -1,6 +1,6 @@
-package com.daniellin07.dubboscaffold.service.impl;
+package com.daniellin07.dubboscaffold.auth.service.impl;
 
-import com.daniellin07.dubboscaffold.service.DemoService;
+import com.daniellin07.dubboscaffold.auth.service.DemoService;
 import org.apache.dubbo.config.annotation.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

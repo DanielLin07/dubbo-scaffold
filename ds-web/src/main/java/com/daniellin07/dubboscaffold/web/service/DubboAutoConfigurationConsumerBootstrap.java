@@ -1,5 +1,6 @@
-package com.daniellin07.dubboscaffold.service;
+package com.daniellin07.dubboscaffold.web.service;
 
+import com.daniellin07.dubboscaffold.auth.service.DemoService;
 import org.apache.dubbo.config.annotation.Reference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +18,7 @@ public class DubboAutoConfigurationConsumerBootstrap {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
-    @Reference(version = "1.0.0", url = "dubbo://127.0.0.1:8002")
+    @Reference(version = "1.0.0", url = "dubbo://127.0.0.1:20801")
     private DemoService demoService;
 
     public static void main(String[] args) {
