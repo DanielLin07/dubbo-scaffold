@@ -1,18 +1,18 @@
-# Base packages to scan Dubbo Component: @org.apache.dubbo.config.annotation.Service
 dubbo:
   scan:
+    # Dubbo组件扫描的位置
     base-packages: com.daniellin07.dubboscaffold.web.service
 
-  # Dubbo Application
-  ## The default value of dubbo.application.name is ${spring.application.name}
-  ## dubbo.application.name=${spring.application.name}
+  application:
+    # 应用名称，如果不指定Dubbo应用名，默认为spring.application.name
+    name: dubbo-scaffold-web
 
-  # Dubbo Protocol
+  # Dubbo协议及暴露的端口号
   protocol:
     name: dubbo
     port: 20802
 
-  ## Dubbo Registry
+  ## Dubbo注册中心地址
   registry:
     address: nacos://127.0.0.1:8848
 

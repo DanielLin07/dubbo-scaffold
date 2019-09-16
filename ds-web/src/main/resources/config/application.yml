@@ -1,9 +1,18 @@
 spring:
   application:
+    # 应用名称，如果不指定Dubbo应用名，默认也为该名称
     name: dubbo-scaffold-web
 
+  # 生效的配置
   profiles:
     active: dev
 
 server:
   port: 8082
+
+# MyBatis-Plus配置
+mybatis-plus:
+  # Mapper映射文件的位置
+  mapper-locations: classpath:mapper/*.xml
+  # 包下所有类的别名，配置别名为了在对象映射文件中接收参数类型和返回参数类型时省略包路径
+  type-aliases-package: com.daniellin07.dubboscaffold.web.domain
