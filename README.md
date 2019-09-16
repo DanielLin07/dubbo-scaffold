@@ -9,6 +9,6 @@
 - [x] 整合Dubbo + Spring Boot
 - [x] 注册中心：Nacos
 - [ ] 数据库：MySQL
-- [ ] ORM框架：MyBatis-Plus
+- [x] ORM框架：MyBatis-Plus
 - [ ] 消息队列：RocketMQ
 - [ ] 缓存中间件：Redis
