@@ -6,9 +6,9 @@
 
 ## 特性
 
-- [x] 整合Dubbo + Spring Boot
+- [x] 服务治理：Dubbo
 - [x] 注册中心：Nacos
-- [ ] 数据库：MySQL
+- [x] 数据库：MySQL
 - [x] ORM框架：MyBatis-Plus
 - [ ] 消息队列：RocketMQ
 - [ ] 缓存中间件：Redis
