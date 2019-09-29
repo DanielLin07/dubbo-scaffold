@@ -7,6 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 
 /**
+ * 生产者实现类
+ *
  * @author DanielLin07
  * @date 2019/9/8 19:29
  */

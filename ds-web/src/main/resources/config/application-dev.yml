@@ -12,7 +12,7 @@ dubbo:
     name: dubbo
     port: 20802
 
-  ## Dubbo注册中心地址
+  # Dubbo注册中心地址
   registry:
     address: nacos://127.0.0.1:8848
 

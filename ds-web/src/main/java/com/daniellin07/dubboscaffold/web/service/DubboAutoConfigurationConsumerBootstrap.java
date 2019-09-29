@@ -10,6 +10,8 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 
 /**
+ * 消费者服务
+ *
  * @author DanielLin07
  * @date 2019/9/8 19:31
  */
