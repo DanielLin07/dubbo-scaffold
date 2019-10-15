@@ -11,4 +11,4 @@
 - [x] 数据库：MySQL
 - [x] ORM框架：MyBatis-Plus
 - [ ] 消息队列：RocketMQ
-- [ ] 缓存中间件：Redis
+- [x] 缓存中间件：Redis
