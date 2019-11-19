@@ -14,3 +14,4 @@
 - [ ] 消息队列：RocketMQ
 - [x] 缓存中间件：Redis
 - [ ] 熔断器：Sentinel
+- [ ] 定时任务：XXL-JOB
