@@ -13,3 +13,4 @@
 - [ ] 分库分表：ShardingSphere
 - [ ] 消息队列：RocketMQ
 - [x] 缓存中间件：Redis
+- [ ] 熔断器：Sentinel
