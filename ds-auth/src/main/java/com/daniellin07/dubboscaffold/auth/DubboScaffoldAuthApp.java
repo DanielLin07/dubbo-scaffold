@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * 应用入口
  *
  * @author DanielLin07
- * @date 2019/9/1 17:52
+ * @since 2019/9/1 17:52
  */
 @SpringBootApplication
 @NacosPropertySource(dataId = "example", autoRefreshed = true)

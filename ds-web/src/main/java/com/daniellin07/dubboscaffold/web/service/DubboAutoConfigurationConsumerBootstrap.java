@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Bean;
  * 消费者服务
  *
  * @author DanielLin07
- * @date 2019/9/8 19:31
+ * @since 2019/9/8 19:31
  */
 @EnableAutoConfiguration
 public class DubboAutoConfigurationConsumerBootstrap {

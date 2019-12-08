@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
  * 生产者实现类
  *
  * @author DanielLin07
- * @date 2019/9/8 19:29
+ * @since 2019/9/8 19:29
  */
 @Service(version = "1.0.0")
 public class DemoServiceImpl implements DemoService {
